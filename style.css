@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+
+}
+
+
+header{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+    filter: saturate(70%);
+}
+
+header h1{
+    text-align: center;
+    color: #f1f1f1 !important;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    line-height: 1em;
+}
+header p{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    color: #f1f1f1;
+    font-size: 1.2em;
+}
+header .p-1{
+    font-weight: lighter;
+    font-size: 1em;
+}
+header form{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header form input{
+    width: 85%;
+    height: 40%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: 3px solid lightgray;
+}
+header form input:hover{
+    border: 3px solid lightgreen;
+}
+header form a{
+    width: 80%;
+    height: 40%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #f1f1f1;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    transition: all 0.5s ease;
+}
+header a:hover{
+    background-color: lightgray;
+}
+::placeholder {
+  color: #000000;
+  text-align: left;
+  opacity: 0.6;
+}
+
+
+/* second section start */
+
+.about{
+    width: 100%;
+    height: 130vh;
+    background-color:  transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* border-bottom: 2px solid #f1f1f1; */
+}
+.about .ab-1, .ab-2, .ab-3{
+    margin-left: 30px;
+    width: 90%;
+    height: 40%;
+    margin-top: 20px;
+}
+.about svg{
+    width: 5em;
+    height: 5em;
+}
+
+.about h2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    color: #f1f1f1;
+    font-size: 1.5em;
+}
+.about p{
+    color: #f1f1f1;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    color: #f1f1f1;
+    font-size: 1em;
+}
+@media (min-with: 1024px) and (min-width: 1200px){
+    .about .ab-1, .ab-2, .ab-3{
+        margin-left: 50px;
+        width: 80%;
+        height: 40%;
+        margin-top: 20px;
+    }
+    .about svg{
+        width: 7em;
+        height: 7em;
+    }
+
+}
+/* testimoials company logos*/
+
+.testi{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.testi img{
+    filter: saturate(0%);
+    object-fit: scale-down;
+}
+
+/* quote */
+.art-1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-1 h2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    color: #f1f1f1;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.art-1 p{
+    color: #f1f1f1;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    color: #f1f1f1;
+    font-size: 0.9em;
+}
